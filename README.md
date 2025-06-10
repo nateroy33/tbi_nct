@@ -18,5 +18,5 @@ The scripts here are organized to replicate the full pipeline used in the corres
 Each script was designed for a specific step in our analysis workflow and may not be fully generalized or cleaned.
 
 ### Notes
-This code is shared for transparency and reproducibility. For questions or clarification, contact [Nate Roy] at nr284@cornell.edu.
+This code is shared for transparency and reproducibility. For questions or clarification, contact Nate Roy at nr284@cornell.edu.
 
