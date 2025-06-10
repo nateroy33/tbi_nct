@@ -17,15 +17,23 @@ The scripts here are organized to replicate the full pipeline used in the corres
 
 Each script was designed for a specific step in our analysis workflow and may not be fully generalized or cleaned:
 
-repeatkmeans.m and elbow.m were used to find and visualize the optimal number of clusters for explaining variance in the data.
-ami_calc.m was used to assess clustering stability and to choose the partition with the highest amount of adjusted mutual information shared with all other partitions.
-systems_plot.m and plotcentroidsSPSnate.m (via https://github.com/kjamison/atlasblobs) were used to visualize brain states.
-comb_clusters.m was used to reorder brain states for interpretative clarity.
-transprobs5gDS1.m was used to calculate and visualize state transition probabilities.
-countclusters.m was used to calulcate state fractional occupancy, dwell time, and appearance rate.
-violin5G.m was used to visualize data from countclusters.m.
-TEtbi4F.m was used for all energetic calculations and visualization.
-entropmild.m was used for entropy calculations and visualization.
+[**repeatkmeans.m**](repeatkmeans.m) and elbow.m were used to find and visualize the optimal number of clusters for explaining variance in the data.
+
+[**ami_calc.m**](ami_calc.m) was used to assess clustering stability and to choose the partition with the highest amount of adjusted mutual information shared with all other partitions.
+
+[**systems_plot.m**](systems_plot.m) and [**plotcentroidsSPSnate.m**](plotcentroidsSPSnate.m) (via https://github.com/kjamison/atlasblobs) were used to visualize brain states.
+
+[**comb_clusters.m**](comb_clusters.m) was used to reorder brain states for interpretative clarity.
+
+[**transprobs5gDS1.m**](transprobs5gDS1.m) was used to calculate and visualize state transition probabilities.
+
+[**countclusters5g.m**](countclusters5g.m) was used to calulcate state fractional occupancy, dwell time, and appearance rate.
+
+[**violin5G.m**](violin5g.m) was used to visualize data from countclusters.m.
+
+[**TEtbi4F.m**](TEtbi4F.m) was used for all energetic calculations and visualization.
+
+[**entropmild.m**](entropmild.m) was used for entropy calculations and visualization.
 
 ### Notes
 This code is shared for transparency and reproducibility. For questions or clarification, contact Nate Roy at nr284@cornell.edu.
