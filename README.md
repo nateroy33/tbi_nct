@@ -27,7 +27,7 @@ Each script was designed for a specific step in our analysis workflow and may no
 
 [**transprobs5gDS1.m**](transprobs5gDS1.m) was used to calculate and visualize state transition probabilities.
 
-[**countclusters5g.m**](countclusters5g.m) was used to calulcate state fractional occupancy, dwell time, and appearance rate.
+[**countclusters5g.m**](countclusters5g.m) was used to calulcate state fractional occupancy.
 
 [**violin5G.m**](violin5g.m) was used to visualize data from countclusters.m.
 
