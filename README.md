@@ -10,12 +10,12 @@ Some functions from these repositories have been modified and consolidated for t
 
 ### Contents
 The scripts here are organized to replicate the full pipeline used in the corresponding manuscript, including:
-- Data preparation and input structuring
+- Input structuring
 - Repeated k-means clustering and control energy calculations
 - Entropy and transition analysis
 - Visualization scripts (violin plots, energy matrices, etc.)
 
-Each script was designed for a specific step in our analysis workflow and may not be fully generalized or cleaned:
+The same scripts were used for both datasets referenced in the paper, with the input files changed. Each script was designed for a specific step in our analysis workflow and may not be fully generalized or cleaned:
 
 [**repeatkmeans.m**](repeatkmeans.m) and elbow.m were used to find and visualize the optimal number of clusters for explaining variance in the data.
 
