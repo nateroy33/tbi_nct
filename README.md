@@ -21,7 +21,7 @@ The same scripts were used for both datasets referenced in the paper, with the i
 
 [**ami_calc.m**](ami_calc.m) was used to assess clustering stability and to choose the partition with the highest amount of adjusted mutual information shared with all other partitions.
 
-[**systems_plot.m**](systems_plot.m) and [**plotcentroidsSPSnate.m**](plotcentroidsSPSnate.m) (via https://github.com/kjamison/atlasblobs) were used to visualize brain states.
+[**systems_plotcopy4nate.m**](systems_plotcopy4nate.m) and [**plotcentroidsSPSnate.m**](plotcentroidsSPSnate.m) (via https://github.com/kjamison/atlasblobs) were used to visualize brain states.
 
 [**comb_clusters.m**](comb_clusters.m) was used to reorder brain states for interpretative clarity.
 
